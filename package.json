@@ -1,0 +1,16 @@
+{
+  "name": "docker-node-ci-app",
+  "version": "1.0.0",
+  "description": "Simple docker nodejs hello world app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules index.js"
+  },
+  "author": "Spatari Stanislav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
