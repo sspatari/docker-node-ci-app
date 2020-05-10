@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  docker-node-ci-app:
+    image: docker-node-ci-app
+    build: .
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
+      - 9229:9229
+    command: node --inspect=0.0.0.0:9229 --experimental-modules index.js
