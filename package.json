@@ -1,7 +1,7 @@
 {
   "name": "docker-node-ci-app",
   "version": "1.0.0",
-  "description": "Simple docker nodejs hello world app",
+  "description": "Simple dockerised hello world app using nodejs that is being build and deployed to heroku",
   "main": "index.js",
   "type": "module",
   "scripts": {
